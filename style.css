@@ -1,0 +1,51 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* header  */
+header {
+    border-bottom: 1px solid black;
+    padding: 20px;
+}
+.top-header {
+    display: flex;
+}
+
+.top-header h2 {
+    color: grey;
+    margin-left: 15px;
+
+}
+.bottom-header ul{
+    display: flex;
+    margin-top: 25px;
+    height: 100%;
+}
+.bottom-header ul li {
+    margin-right:15px;
+    list-style: none;
+}
+
+
+/* main */
+.container {
+    width: 70%;
+    margin:auto;
+}
+
+.container p {
+    margin-left: 25px;
+} 
+.container ul {
+    margin-left: 50px;
+}
+
+section {
+    margin: 15px 0px;
+    padding-top: 20px;
+}
+section h2, section h3  {
+    margin: 25px 0px;
+}
